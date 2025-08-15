@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209850203960",
+    "project_id": "ttsdatabase-950df",
+    "storage_bucket": "ttsdatabase-950df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209850203960:android:b97a2725b808b17084cbcd",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209850203960-is4hin1963fmkg38vjet02v69ujk7doq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ5ElXFEDCTZ5pAcWvTwmd4Dg1Nti6xM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209850203960-is4hin1963fmkg38vjet02v69ujk7doq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
