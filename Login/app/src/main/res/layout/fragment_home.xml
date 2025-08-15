@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_frag"
+    tools:context=".HomePage">
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="110dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="16dp"
+            android:layout_marginBottom="16dp"
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_8"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/tta_icon"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/circle"
+                    android:src="@drawable/tta"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Text to Speech"
+                    android:textSize="25dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="6dp"
+
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/tta">
+
+                </TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="110dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginBottom="16dp"
+        >
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_8"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/pta_icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/circle"
+                android:padding="10dp"
+                android:src="@drawable/icon_pta"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PDF to Speech"
+                android:textSize="25dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="6dp"
+                android:id="@+id/pta"
+
+                android:textColor="@color/white"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="110dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginBottom="16dp"
+        >
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_8"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ita_icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/icon_img"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Image to Speech"
+                android:textSize="25dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="6dp"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/ita">
+
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
